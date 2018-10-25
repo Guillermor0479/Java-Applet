@@ -10,7 +10,7 @@ public class Person {
 	    
 		
 	}
-		
+			
 	public String getName() {
 		return name;
 	}
@@ -27,4 +27,8 @@ public class Person {
 	public void setMaximumBooks(int maximumBooks) {
 		this.maximumBooks = maximumBooks;
 	} 
+	
+	public String toString() {
+		return this.getName() + " (" + this.getMaximumBooks() + " books)";
+	}
 }
