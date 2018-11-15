@@ -1,3 +1,5 @@
-Person p = new Person();
-p.setName("Fred");
-p.toString()
+ArrayList<String> list  = new ArrayList<String>();
+
+list.add("test1");
+list.add("String2");
+list
